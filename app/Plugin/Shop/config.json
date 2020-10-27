@@ -1,0 +1,52 @@
+{
+	"name":"Boutique",
+	"admin_menus": {
+		"Boutique": {
+			"icon": "shopping-cart",
+			"index": "3",
+			"menu": {
+                "Gérer les catégories": {
+					"icon": "list-alt",
+					"permission": "SHOP__ADMIN_MANAGE_CATEGORIES",
+					"route": "/admin/shop/categories"
+				},
+				"Gérer les articles": {
+					"icon": "shopping-basket",
+					"permission": "SHOP__ADMIN_MANAGE_ITEMS",
+					"route": "/admin/shop"
+				},
+				"Gérer les promotions": {
+					"icon": "percent",
+					"permission": "SHOP__ADMIN_MANAGE_VOUCHERS",
+					"route": "/admin/shop/shop/vouchers"
+				},
+				"Gérer les paiements": {
+					"icon": "credit-card",
+					"permission": "SHOP__ADMIN_MANAGE_PAYMENT",
+					"route": "/admin/shop/payment"
+				},
+				"Cadeaux": {
+					"icon": "gift",
+					"permission": "SHOP__ADMIN_MANAGE_ITEMS",
+					"route": "/admin/shop/giftall"
+				}
+			}
+		}
+	},
+	"navbar_routes": {
+		"Boutique": "/shop"
+	},
+	"author":"Eywek",
+	"version":"1.2.21",
+	"useEvents":true,
+	"permissions" : {
+		"available" : ["CREDIT_ACCOUNT", "CAN_BUY", "SHOP__ADMIN_MANAGE_ITEMS", "SHOP__ADMIN_MANAGE_CATEGORIES", "SHOP__ADMIN_MANAGE_VOUCHERS", "SHOP__ADMIN_MANAGE_PAYMENT", "SHOP__ADMIN_GIFTALL"],
+		"default" : {
+			"0" : ["CREDIT_ACCOUNT", "CAN_BUY"],
+			"2" : ["CREDIT_ACCOUNT", "CAN_BUY"]
+		}
+	},
+	"requirements" : {
+		"CMS" : "^1.2.0"
+	}
+}
