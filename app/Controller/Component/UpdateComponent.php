@@ -26,8 +26,8 @@ class UpdateComponent extends CakeObject
         'theme.default.json'
     );
     private $source = [
-        'repo' => 'MineWebCMS',
-        'owner' => 'MineWeb',
+        'repo' => 'FiveM_Cms',
+        'owner' => 'zinzin92',
         'versionFile' => 'VERSION'
     ];
     public $errorUpdate;
