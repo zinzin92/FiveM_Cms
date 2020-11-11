@@ -36,7 +36,7 @@ A clear and concise description of what you expected to happen. | Merci d'expliq
 
 If applicable, add screenshots to help explain your problem. | Mettez des captures d'écran détaillées si possible. 
 
-**MineWeb (please complete the following information):**
+**(please complete the following information):**
 
  - OS: [e.g. Ubuntu, Debian OR craftaserv, ionos if it's a web hosting]
 
