@@ -245,16 +245,6 @@ class AppController extends Controller
                     ]
                 ]
             ],
-            'SERVER__TITLE' => [
-                'icon' => 'server',
-                'permission' => 'MANAGE_SERVERS',
-                'menu' => [
-                    'SERVER__LINK' => [
-                        'icon' => 'arrows-h',
-                        'route' => ['controller' => 'server', 'action' => 'link', 'admin' => true, 'plugin' => false]
-                    ]
-                ]
-            ],
             'GLOBAL__ADMIN_PLUGINS' => [
                 'icon' => 'puzzle-piece'
             ],
